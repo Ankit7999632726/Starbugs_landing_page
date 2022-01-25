@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(229, 229, 157);
+}
+#left{
+    height: 100%;
+    width: 75%;
+    background-color: #067655;
+}
+#nav{
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+
+    
+}
+a{
+    margin-top: 40px;
+    text-decoration: none;
+    color: white;
+    font-family: gillroy;
+}
+#logo{
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+#center{
+    color: white;
+    position: relative;
+    height: 40%;
+    width: 90%;
+    margin-left: 50px;
+    margin-top: 5%;
+}
+#center1{
+    position: absolute;
+    left: 108px;
+    font-family: 'Dancing Script', cursive;
+    top: 9px;
+    font-size: 45px;
+}
+#center2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 125px;
+}
+#center3{
+    margin-top: 20px;
+    margin-left: 5px;
+    font-family: gillroy;
+}
+#cup{
+    position: relative;
+    height: 86%;
+    width: 20%;
+    top: -25%;
+    left: 85%;
+    transform: rotate(-90deg);
+    
+}
+#op{
+    font-family: 'Dancing Script', cursive ;
+    font-size: 110px;
+    color: white;
+    opacity: 50%;
+    bottom: 56%;
+    left: 45%;
+    position: absolute;
+}
+#cuup{
+    position: absolute;
+    transform: rotate(90deg);
+    bottom: -5%;
+    left: 18%;
+    
+    
+}
+#bottom{
+    height: 25%;
+    width: 48%;
+    background-color: rgb(240, 235, 235);
+    bottom: 0px;
+    position: absolute;
+    border-top-right-radius: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.cup1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #067655;
+    height: 90px;
+    width: 100px;
+    margin-top: 11%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.cup2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #067655;
+    height: 90px;
+    width: 100px;
+    margin-top: 11%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.cup3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #067655;
+    height: 90px;
+    width: 100px;
+    margin-top: 11%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.hold{
+    height: 120px;
+    margin-bottom: 65px;   
+}
